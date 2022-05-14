@@ -1,0 +1,87 @@
+#izquierda{
+    display: flex;
+    flex-direction: column;
+}
+
+.cabeza {
+
+    background-color: blue;
+    width: 500px;
+    height: 550px;
+    border: black 2px solid;
+    margin: 20px;
+    text-align: center;
+    align-self: flex-end;
+    border-radius: 20px;
+}
+
+#titulo_1 {
+    font-size: 60px;
+}
+
+#titulo_2 {
+    font-size: 35px;
+}
+
+#seccion{
+    background-color: cadetblue;
+    width: 920px;
+    height: 300px;
+    border: black 2px solid;
+    padding: 7px;
+    display: flex;
+    flex-direction: row;
+    border-radius: 20px;
+}
+.uno {
+    background-color: blue;
+
+    width: 500px;
+    height: 200px;
+    border: black 2px solid;
+    padding: 20px;
+    margin: 20px;   
+    border-radius: 20px;
+}
+
+.dos {
+    background-color: aquamarine;
+    text-align: center;
+    width: 250px;
+    height: 200px;
+    border: black 2px solid;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 20px;
+}
+
+.contacto {
+    background-color: coral;
+    border: black 2px solid;
+    padding: 5px;
+}
+.costado{
+    background-color: aquamarine;
+    width: 500px;
+    height: 850px;
+    border: black 2px solid;
+    margin: 10px;
+    border-radius: 20px;
+    justify-self: flex-start;
+    align-self: flex-end;
+}
+footer{
+    font-size: 15px;
+    background-color: blueviolet;
+    width: 500px;
+    height: 50px;
+    border: black 2px solid;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 20px;
+}
+
+body {
+    background-color: brown;
+    display: flex;
+}
